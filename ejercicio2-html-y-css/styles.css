@@ -1,0 +1,35 @@
+
+
+
+div.login {
+
+    background: linear-gradient(pink, blue);
+    color: white;
+    padding: 20px;
+    border-radius: 20 px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 5 px 5 px 10 px #333;
+    height: 350 px;
+}
+
+  div.login label {
+    font-size: 15 px;
+  } 
+  
+  div.login input[type="email"], input[type="password"], select {
+    width: 100 px;
+    border: none
+    padding: 0 0 7px;
+    margin-bottom: 14px;
+  }
+
+div.login input[type="submit"] {
+    padding: 5px 15px 5px 15px;
+    margin-left: 72%;
+}
+
+div.login input[type="checkbox"] {
+    margin: 0;
+    padding-top: 15px;
+}
